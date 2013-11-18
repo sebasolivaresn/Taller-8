@@ -1,5 +1,5 @@
-all:plot
+all: MCMC
 	
-plot: MCMC.ipynb
+MCMC: MCMC.ipynb
 	ipython notebook
 	MCMC.ipynb&
